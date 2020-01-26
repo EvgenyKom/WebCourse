@@ -1,0 +1,95 @@
+<!Doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Best site ever</title>
+</head>
+<body>
+
+<form action="/acton.php" method="post">
+    <div>
+        <label>
+            Имя
+            <input name="firstName" type="text" placeholder="Ваше имя">
+        </label>
+    </div>
+
+    <div>
+        <label>Фамилия
+            <input name="secondName" type="text" placeholder="Ваша фамилия">
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Возраст
+            <input name="age" type="text" placeholder="Ваш возраст">
+        </label>
+    </div>
+
+    <div>
+        <select name="gender">
+            <option value="0">Мужской</option>
+            <option value="1">Женский</option>
+        </select>
+    </div>
+
+    <div>
+        <label>
+            Html
+            <input name="html" type="checkbox">
+        </label>
+
+        <label>
+            CSS
+            <input name="css" type="checkbox">
+        </label>
+
+        <label>
+            Javascript
+            <input name="javascript" type="checkbox">
+        </label>
+
+        <label>
+            Java
+            <input name="java" type="checkbox">
+        </label>
+    </div>
+
+    <div>
+        <label>
+            <input checked="checked" type="radio" value="1" name="myRadio"> Дневное время
+        </label>
+        <label>
+            <input type="radio" value="1" name="myRadio"> Вечернее время
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Выберите удобные дни недели
+            <select size="3" multiple name="dayOfTheWeek">
+                <option value="Monday">Понедельник</option>
+                <option value="Tuesday">Вторник</option>
+                <option value="Wednesday">Среда</option>
+                <option value="Thursday">Четверг</option>
+                <option selected value="Friday">Пятница</option>
+                <option value="Saturday">Суббота</option>
+                <option value="Sunday">Воскресенье</option>
+            </select>
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Информация
+            <textarea name="information" cols="25" rows="4" placeholder="Напишите немного о себе"></textarea>
+        </label>
+    </div>
+
+    <button type="submit">Отправить данные</button>
+</form>
+
+<a href="index.html">Вернуться на главную страницу</a>
+</body>
+</html>
