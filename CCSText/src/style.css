@@ -1,0 +1,32 @@
+.headline {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #676565;
+}
+
+.highlighted {
+    font-size: 16px;
+    color: #378DB2;
+    font-weight: bold;
+}
+
+.standard {
+    font-size: 16px;
+    color: #676565;
+}
+
+.crossOutStandard {
+    font-size: 16px;
+    color: #676565;
+    text-decoration: line-through;
+}
+
+p {
+    text-indent: 25px;
+    text-align: justify;
+}
+
+html {
+    background: #FEEED6;
+}
