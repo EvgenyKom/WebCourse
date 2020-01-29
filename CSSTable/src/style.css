@@ -1,0 +1,36 @@
+table {
+    width: 580px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 36px;
+    border-collapse: collapse;
+}
+
+th {
+    background: #3498DB;
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td {
+    padding-left: 8px;
+    border-style: solid;
+    border-width: 1px ;
+    border-color: #cccccc;
+}
+
+tr:nth-child(odd) {
+    background: #eeeeee;
+}
+
+tr:nth-child(even) {
+    background: #ffffff;
+}
+
+.col1, .col2, .col4 {
+    width: 20%;
+}
+
+.col3 {
+    width: 40%;
+}
