@@ -1,0 +1,30 @@
+form {
+    background: antiquewhite;
+}
+
+label {
+    font-size: 14px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+[placeholder] {
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+div {
+    padding-left: 8px;
+}
+
+h1 {
+    color: gray;
+}
+
+button {
+    margin-left: 550px;
+    background: #3498DB;
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+}
