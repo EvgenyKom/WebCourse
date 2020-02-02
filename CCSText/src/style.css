@@ -3,30 +3,37 @@
     text-transform: uppercase;
     font-weight: lighter;
     color: #676565;
+    font-family: Arial, serif;
 }
 
 .highlighted {
-    font-size: 16px;
+    font-size: 18px;
     color: #378DB2;
     font-weight: bold;
+    font-family: Arial, serif;
 }
 
 .standard {
-    font-size: 16px;
+    font-size: 18px;
     color: #676565;
-}
-
-.crossOutStandard {
-    font-size: 16px;
-    color: #676565;
-    text-decoration: line-through;
-}
-
-p {
-    text-indent: 25px;
+    text-indent: 18px;
     text-align: justify;
+    font-family: Arial, serif;
+    line-height: 1.5;
 }
 
-html {
+.cross_out {
+    text-decoration: line-through;
+    font-family: Arial, serif;
+}
+
+.text_block {
     background: #FEEED6;
+    margin-left: 12px;
+    max-width: 838px;
+    width: 100%;
+}
+
+.block {
+
 }
